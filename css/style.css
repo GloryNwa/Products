@@ -1,0 +1,218 @@
+*{
+	
+box-sizing: border-box;	
+
+}
+body{
+  background: #92bde7;
+  color: #272c33;
+  font-family: 'sego UI', Tahoma
+  padding: 1em;
+ }
+
+
+
+.container{
+
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+
+.brand {
+  text-align: center;
+ color: #c9e6ff;
+}
+
+.brand span{
+  text-align: center;
+  color: #fff;
+
+}
+
+.brand span:hover{
+color: #000;
+  transition: background-color 2s ease-out;
+
+
+}
+
+.brandy {
+  text-align: center;
+ color: #485e72;
+ margin: 0 0 1rem 0;
+ border: 2px dotted #000;
+border-radius: 10px;
+}
+
+.brandy span{
+  text-align: center;
+
+
+}
+
+.brandy span:hover{
+  color: #fff;
+  transition: background-color 2s ease-out;
+
+
+}
+
+.wrapper{
+	box-shadow: 0 0 10px 0 rgba(72,94,116,0.7);
+
+
+}
+.wrapper > *{
+	padding: 1em;
+}
+
+.Data-Form{
+	background:  #1A446C;
+}
+.Data-Form h1{
+	/*text-align: center;*/
+	margin: 0 0 1rem 0;
+    border: 1px dotted #c9e6ff;
+}
+.Data-Form :hover{
+ color: #92bde7;
+transition: background-color 2s ease-out;
+
+}
+.data{
+
+	background: #c9e6ff;
+}
+
+.Web-Design{
+	background: #c9e6ff;
+}
+.Web-Design h3, .Web-Design ul{
+	text-align: center;
+	margin: 0 0 1rem 0;
+}
+.contact{
+
+	background: #f9feff;
+
+
+}
+/****Capture_Form **/
+.data form{
+	display: block;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 20px;
+}
+#data form label{
+	display: grid;
+
+}
+.data form p{
+	margin: 0;
+}
+.data form .full{
+	grid-column: 1/4;
+}
+.data form button, .data form input{
+	width: 100%;
+	padding: 1em;
+/*	border: 1px dotted #c9e6ff;*/
+}
+.data button{
+	background:  #272c33;
+	color: #fff;
+	border: 0;
+	text-transform: uppercase;
+
+
+}
+/**/
+.contact button:hover, button focus{
+	background: #c9e6ff;
+	border: 0;
+	outline: 0;
+    text-transform: uppercase;
+    transition: background-color 2s ease-out;
+
+
+
+}
+
+textarea{
+	width: 100%;
+	border: 1px dotted #000;
+	/**/
+}
+
+.full{
+	width: 100%;
+	padding: 1em;
+	border: 1px dotted #c9e6ff;
+	text-align: center;
+}
+.full{
+	background:#272c33;
+	color: #fff;
+	border: 0;
+	text-transform: uppercase;
+
+
+}
+.full{
+    background: #272c33;
+    color: #1A446C;
+    outline: 0;
+    transition: background-color 2s ease-out;
+
+}
+.contact form button:hover,.contact form button focus{
+    background: #92bde7;
+    color: #fff;
+    outline: 0;
+    transition: background-color 2s ease-out;
+
+}
+
+.alert{
+	text-align:  center;
+	padding: 10px;
+	background: #78c879;
+	color: #fff;
+	margin-bottom: 10px;
+	display: none;
+}
+
+
+
+/**  LARGE SCREEEN **/
+@media(min-width:700px){
+.wrapper{
+	display:grid;
+	grid-template-columns: 1fr 2fr;
+
+  }
+  .wrapper > *{
+  	padding: 2em;
+  }
+  .data h3, .data, .brand{
+  	text-align: left;
+  }
+}
+
+
+/**  web_2.php **/
+
+#head{
+	padding-top: 40px;
+}
+.center {
+     margin-left:100px; 
+    margin-right:100px;
+
+    
+}
+h4{
+color: #fff;
+}
